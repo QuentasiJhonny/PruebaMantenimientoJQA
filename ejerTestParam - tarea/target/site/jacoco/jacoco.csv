@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+ejerTestParam,com.mycompany.ejertestparam,Fibonacci,0,48,0,2,0,11,0,3,0,2
+ejerTestParam,com.mycompany.ejertestparam,Calculadora,5,21,1,1,1,6,1,5,0,5
+ejerTestParam,com.mycompany.ejertestparam,NumeroPrimo,10,14,3,1,2,4,2,2,0,2
+ejerTestParam,com.mycompany.ejertestparam,Palindromo,74,3,6,0,13,1,4,1,1,1
+ejerTestParam,com.mycompany.ejertestparam,Utilidades,2,23,3,3,1,4,3,3,0,3
+ejerTestParam,com.mycompany.ejertestparam,Triangulo,6,33,6,10,0,9,4,6,0,2
