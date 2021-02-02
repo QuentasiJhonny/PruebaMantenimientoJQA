@@ -23,3 +23,5 @@
 hs_err_pid*
 /com.mycompany_primerParcials_jar_1.0-SNAPSHOT/target/
 /com.mycompany_primerParcials_jar_1.0-SNAPSHOT/nbproject/
+/ParcialSudoku/target/
+/ParcialSudoku/nbproject/

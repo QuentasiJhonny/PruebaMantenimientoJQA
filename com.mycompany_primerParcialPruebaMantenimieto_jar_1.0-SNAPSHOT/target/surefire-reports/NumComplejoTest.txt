@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: NumComplejoTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.156 sec <<< FAILURE! - in NumComplejoTest
+testSumar[0](NumComplejoTest)  Time elapsed: 0.015 sec  <<< ERROR!
+java.lang.IllegalArgumentException: wrong number of arguments
+
+testRestar[0](NumComplejoTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalArgumentException: wrong number of arguments
+

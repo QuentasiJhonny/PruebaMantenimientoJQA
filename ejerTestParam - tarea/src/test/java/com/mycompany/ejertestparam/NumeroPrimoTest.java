@@ -21,11 +21,12 @@ public class NumeroPrimoTest {
     
     public static List<Object> datos()
     {
-    return Arrays.asList(new Object[][]{{3}});
+    return Arrays.asList(new Object[][]{{3},{2}});
     }
     @Parameterized.Parameter(0)
     public int valor1;
-    
+    @Parameterized.Parameter(1)
+    public int valor2; 
    
     NumeroPrimo utils = new NumeroPrimo();
 
@@ -37,9 +38,16 @@ public class NumeroPrimoTest {
         boolean resultado = utils.validate(valor1);
  
         assertEquals(esperado1,resultado);
-        }
         
         
+       
+        
+    
+        
+     }
+        
+       
+   
         
        }
     

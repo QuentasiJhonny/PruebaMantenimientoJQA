@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.bolsadeideas.springboot.app.SpringBootDataJpaApplicationNGTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.681 sec <<< FAILURE! - in com.bolsadeideas.springboot.app.SpringBootDataJpaApplicationNGTest
+testMain(com.bolsadeideas.springboot.app.SpringBootDataJpaApplicationNGTest)  Time elapsed: 2.246 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Args must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:134)
+	at org.springframework.boot.devtools.restart.Restarter.<init>(Restarter.java:135)
+	at org.springframework.boot.devtools.restart.Restarter.initialize(Restarter.java:546)
+	at org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationStartingEvent(RestartApplicationListener.java:67)
+	at org.springframework.boot.devtools.restart.RestartApplicationListener.onApplicationEvent(RestartApplicationListener.java:45)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.starting(EventPublishingRunListener.java:69)
+	at org.springframework.boot.SpringApplicationRunListeners.starting(SpringApplicationRunListeners.java:48)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:292)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.bolsadeideas.springboot.app.SpringBootDataJpaApplication.main(SpringBootDataJpaApplication.java:10)
+	at com.bolsadeideas.springboot.app.SpringBootDataJpaApplicationNGTest.testMain(SpringBootDataJpaApplicationNGTest.java:23)
+
