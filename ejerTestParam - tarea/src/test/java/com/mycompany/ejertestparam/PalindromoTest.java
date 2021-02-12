@@ -22,10 +22,11 @@ public class PalindromoTest {
     public static List<Object> datos()
     {
         //devolver lista
-    return org.assertj.core.util.Arrays.asList(new Object[][]{{"somos",true},{"arana",false}});
+    return org.assertj.core.util.Arrays.asList(new Object[][]{{"somos"},{"arana"}});
     }
     @Parameterized.Parameter(0)
     public String valor1;
+    
     @Parameterized.Parameter(1)
     public boolean resultado;
             
